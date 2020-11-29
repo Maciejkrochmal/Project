@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  /*background-color: #00b3ff;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.player-container{
+  width: 400px;
+  height: 450px;
+  background-color: #0A2463;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.player-img{
+  margin: 20px;
+}
+h1 {
+  font-size: 15px;
+  margin: 0 0 5px 0;
+}
+p{
+  margin: 0 10px ;
+}
+.player-edit{
+  margin: 10px;
+}

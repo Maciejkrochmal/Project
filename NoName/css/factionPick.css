@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.faction-pick-container {
+  display: flex;
+  height: 99vh;
+}
+.big-img-faction{
+  width: 500px;
+  background-color: #7ec932;
+  flex-shrink: 0;
+}
+.faction-container {
+  display: flex;
+  flex-direction: column;
+}
+.faction-header, .faction-draw, .faction-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #00b3ff;
+  margin: 20px;
+}
+.faction-draw{
+  height: 50px;
+}
+.faction-to-pick {
+  background-color: #002b36;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faction-details {
+  display: flex;
+  justify-content: center;
+  background-color: #8bc34a;
+  margin: 20px;
+}
+.edgebackground{
+  position: absolute;
+  max-width: 100vw;
+  z-index: -1;
+  max-height: 100vh;
+}

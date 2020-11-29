@@ -1,0 +1,424 @@
+{
+  "players": [
+    {
+      "name": "Player 1",
+      "faction": "The Federation of Sol",
+      "perc1": "ORBITAL DROP: ACTION: Spend 1 token from your strategy pool to place 2 infantry from your reinforcements on 1 planet you control.",
+      "perc2": "VERSATILE: When you gain command tokens during the status phase, gain 1 additional command token.",
+      "perc3": null,
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/9/98/SOL.png",
+      "fleet": {
+        "mothership": 5,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 7,
+        "PDS": 6
+      },
+      "id": 1
+    },
+    {
+      "name": "Player 2",
+      "faction": "The Clan of Saar",
+      "perc1": "SCAVENGE: After you gain control of a planet, gain 1 trade good.",
+      "perc2": "NOMADIC: You can score objectives even if you do not control the planets in your home system.",
+      "perc3": null,
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/5/59/SAAR.png",
+      "fleet": {
+        "mothership": 5,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 8,
+        "PDS": 6
+      },
+      "id": 2
+    },
+    {
+      "name": "Player 3",
+      "faction": "The Embers of Muaat",
+      "perc1": "STAR FORGE: ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your war suns.",
+      "perc2": "GASHLAI PHYSIOLOGY: Your ships can move through supernovas.",
+      "perc3": null,
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/5/52/MUAAT.png",
+      "fleet": {
+        "mothership": 5,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 8,
+        "PDS": 6
+      },
+      "id": 3
+    },
+    {
+      "name": "Player 4",
+      "faction": "The Mentak Coalition",
+      "perc1": "AMBUSH: At the start of a space combat, you may roll 1 die for each of up to 2 of your cruisers or destroyers in the system.  For each result equal to or greater than that ship's combat value, produce 1 hit; your opponent must assign it to 1 of his ships.",
+      "perc2": "PILLAGE: After 1 of your neighbors gains trade goods or resolves a transaction, if he has 3 or more trade goods, you may take 1 of his trade goods or commodities.",
+      "perc3": null,
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/d/d7/MENTAK.png",
+      "fleet": {
+        "mothership": 7,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 8,
+        "PDS": 6
+      },
+      "id": 4
+    },
+    {
+      "name": "Player 5",
+      "faction": "The L1Z1X Mindnet",
+      "perc1": "ASSIMILATE: When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements.",
+      "perc2": "HARROW: At the end of each round of ground combat, your ships in the active system may use their Bombardment abilities against your opponent's ground forces on the planet.",
+      "perc3": null,
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/e/ec/L1Z1XArt.png",
+      "fleet": {
+        "mothership": 5,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 8,
+        "PDS": 6
+      },
+      "id": 5
+    },
+    {
+      "name": "Player 6",
+      "faction": "The L1Z1X Mindnet",
+      "perc1": "ASSIMILATE: When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements.",
+      "perc2": "HARROW: At the end of each round of ground combat, your ships in the active system may use their Bombardment abilities against your opponent's ground forces on the planet.",
+      "perc3": null,
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/e/ec/L1Z1XArt.png",
+      "fleet": {
+        "mothership": 5,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 8,
+        "PDS": 6
+      },
+      "id": 6
+    }
+  ],
+  "factions": [
+    {
+      "id": 1,
+      "factionName": "The Arborec",
+      "factionPerc1": "MITOSIS: Your space docks cannot produce infantry.  At the start of the status phase , place 1 infantry from your reinforcements on any planet you control.",
+      "factionPerc2": null,
+      "factionPerc3": null,
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/f/fd/ARBOREC.png",
+      "fleet": {
+        "mothership": 7,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 8,
+        "PDS": 6,
+        "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
+      }
+    },
+    {
+      "id": 2,
+      "factionName": "The Barony of Letnev",
+      "factionPerc1": "MUNITIONS RESERVES: At the start of each round of space combat, you may spend 2 trade goods;  you may re-roll any number of your dice during that combat round.",
+      "factionPerc2": "ARMADA: The maximum number of non-fighter ships you can have in each system is equal to 2 more than the number of tokens in your fleet pool.",
+      "factionPerc3": null,
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/b/b4/BARONY.png",
+      "fleet": {
+        "mothership": 5,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 8,
+        "PDS": 6,
+        "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
+      }
+    },
+    {
+      "id": 3,
+      "factionName": "The Clan of Saar",
+      "factionPerc1": "SCAVENGE: After you gain control of a planet, gain 1 trade good.",
+      "factionPerc2": "NOMADIC: You can score objectives even if you do not control the planets in your home system.",
+      "factionPerc3": null,
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/5/59/SAAR.png",
+      "fleet": {
+        "mothership": 5,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 8,
+        "PDS": 6,
+        "spaceDock": "This unit is placed in a space area instead of on a planet.  This unit can move and retreat as if it were a ship.  If this unit is blockaded, it is destroyed."
+      }
+    },
+    {
+      "id": 4,
+      "factionName": "The Embers of Muaat",
+      "factionPerc1": "STAR FORGE: ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your war suns.",
+      "factionPerc2": "GASHLAI PHYSIOLOGY: Your ships can move through supernovas.",
+      "factionPerc3": null,
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/5/52/MUAAT.png",
+      "fleet": {
+        "mothership": 5,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 8,
+        "PDS": 6,
+        "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
+      }
+    },
+    {
+      "id": 5,
+      "factionName": "The Emirates of Hacan",
+      "factionPerc1": "MASTERS OF TRADE: You do not have to spend a command token to resolve the secondary ability of the \"Trade\" strategy card.",
+      "factionPerc2": "GUILD SHIPS: You can negotiate transactions with players who are not your neighbor.",
+      "factionPerc3": "ARBITERS: When you are negotiating a transaction, action cards can be exchanged as part of that transaction.",
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/d/d4/HACAN.png",
+      "fleet": {
+        "mothership": 7,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 8,
+        "PDS": 6,
+        "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
+      }
+    },
+    {
+      "id": 6,
+      "factionName": "The Federation of Sol",
+      "factionPerc1": "ORBITAL DROP: ACTION: Spend 1 token from your strategy pool to place 2 infantry from your reinforcements on 1 planet you control.",
+      "factionPerc2": "VERSATILE: When you gain command tokens during the status phase, gain 1 additional command token.",
+      "factionPerc3": null,
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/9/98/SOL.png",
+      "fleet": {
+        "mothership": 5,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 7,
+        "PDS": 6,
+        "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
+      }
+    },
+    {
+      "id": 7,
+      "factionName": "The Ghosts of Creuss",
+      "factionPerc1": "QUANTUM ENTANGLEMENT : You treat all systems that contain either an alpha or beta wormhole as adjacent to each other. Game effects cannot prevent you from using this ability.",
+      "factionPerc2": "SLIPSTREAM: During your tactical actions, apply +1 to the move value of each of your ships that starts its movement in your home system  or in a system that contains either an alpha or beta wormhole",
+      "factionPerc3": "CREUSS GATE: When you create the game board, place the Creuss Gate (tile 17) where your home system would normally be placed. The Creuss Gate system is not a home system. Then, place your home system (tile 51) in your play area.\n",
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/4/4b/GHOSTS.png",
+      "fleet": {
+        "mothership": 5,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 8,
+        "PDS": 6,
+        "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
+      }
+    },
+    {
+      "id": 8,
+      "factionName": "The L1Z1X Mindnet",
+      "factionPerc1": "ASSIMILATE: When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements.",
+      "factionPerc2": "HARROW: At the end of each round of ground combat, your ships in the active system may use their Bombardment abilities against your opponent's ground forces on the planet.",
+      "factionPerc3": null,
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/e/ec/L1Z1XArt.png",
+      "fleet": {
+        "mothership": 5,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 8,
+        "PDS": 6,
+        "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
+      }
+    },
+    {
+      "id": 9,
+      "factionName": "The Mentak Coalition",
+      "factionPerc1": "AMBUSH: At the start of a space combat, you may roll 1 die for each of up to 2 of your cruisers or destroyers in the system.  For each result equal to or greater than that ship's combat value, produce 1 hit; your opponent must assign it to 1 of his ships.",
+      "factionPerc2": "PILLAGE: After 1 of your neighbors gains trade goods or resolves a transaction, if he has 3 or more trade goods, you may take 1 of his trade goods or commodities.",
+      "factionPerc3": null,
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/d/d7/MENTAK.png",
+      "fleet": {
+        "mothership": 7,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 8,
+        "PDS": 6,
+        "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
+      }
+    },
+    {
+      "id": 10,
+      "factionName": "The Naalu Collective",
+      "factionPerc1": "TELEPATHIC: At the end of the strategy phase, place the Naalu \"0\" token on your strategy card; you are first in initiative order.",
+      "factionPerc2": "FORESIGHT: After another player moves ships into a system that contains 1 or more of your ships, you may place 1 token from your strategy pool in an adjacent system that does not contain another player's ships;  move your ships from the active system into that system.",
+      "factionPerc3": null,
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/8/88/NAALU.png",
+      "fleet": {
+        "mothership": 9,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 8,
+        "infantry": 8,
+        "PDS": 6,
+        "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
+      }
+    },
+    {
+      "id": 11,
+      "factionName": "The Nekro Virus",
+      "factionPerc1": "GALACTIC THREAT : You cannot vote on agendas.  Once per agenda phase, after an agenda is revealed, you may predict aloud the outcome of that agenda.  If your prediction is correct, gain 1 technology that is owned by a player who voted how you predicted.",
+      "factionPerc2": "TECHNOLOGICAL SINGULARITY: Once per combat, after 1 of your opponent's units is destroyed, you may gain 1 technology that is owned by that player.",
+      "factionPerc3": "PROPAGATION: You cannot research technology.  When you would research a technology, gain 3 command tokens instead.",
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/f/fb/NEKRO.png",
+      "fleet": {
+        "mothership": 7,
+        "warSun": 3,
+        "dreadnought": 5,
+        "carrier": 9,
+        "crusier": 7,
+        "destroyer": 9,
+        "fighter": 9,
+        "infantry": 8,
+        "PDS": 6,
+        "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
+      }
+    }
+  ],
+  "fightData": [
+    {
+      "name": "Player 1",
+      "mothership": 1,
+      "warSun": 1,
+      "dreadnought": 0,
+      "carrier": 2,
+      "crusier": 1,
+      "destroyer": 0,
+      "fighter": 0,
+      "infantry": 3,
+      "PDS": 0,
+      "id": 1
+    },
+    {
+      "name": "Player 2",
+      "mothership": 0,
+      "warSun": 0,
+      "dreadnought": 5,
+      "carrier": 0,
+      "crusier": 0,
+      "destroyer": 0,
+      "fighter": 0,
+      "infantry": 4,
+      "PDS": 0,
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "name": "Player 5",
+      "mothership": 0,
+      "warSun": 0,
+      "dreadnought": 0,
+      "carrier": 0,
+      "crusier": 0,
+      "destroyer": 0,
+      "fighter": 0,
+      "infantry": 0,
+      "PDS": 0,
+      "id": 5
+    },
+    {
+      "name": "Player 6",
+      "mothership": 10,
+      "warSun": 0,
+      "dreadnought": 0,
+      "carrier": 0,
+      "crusier": 0,
+      "destroyer": 10,
+      "fighter": 14,
+      "infantry": 0,
+      "PDS": 0,
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    }
+  ]
+}

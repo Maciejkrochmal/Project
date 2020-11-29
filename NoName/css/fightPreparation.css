@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.fight-container {
+    background-color: #00b3ff;
+}
+
+.fight-player{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    height: 430px;
+}
+
+.fight-player-img{
+    background-color: #0A2463;
+    height: 300px;
+    width: 200px;
+}
+
+.fight-player-container{
+    margin-left: 5px;
+    padding: 20px;
+    width: 180px;
+    height: 360px;
+    background-color: #2d4d76;
+}
+.fight-player-container-form{
+    width: 120px;
+}
+.fight-player-war-container{
+    width: 500px;
+    height: 860px;
+}
