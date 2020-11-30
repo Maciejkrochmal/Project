@@ -3,22 +3,22 @@ body {
   padding: 0;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-}
+/*header {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*}*/
 .header-tech-list{
   height: 200px;
   margin: 25px;
   width: 30%;
   background-color: #0A2463;
 }
-section {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  /*background-color: #00b3ff;*/
-}
+/*section {*/
+/*  display: flex;*/
+/*  justify-content: space-around;*/
+/*  align-items: center;*/
+/*  !*background-color: #00b3ff;*!*/
+/*}*/
 .faction-ships {
   background-color: #1f1f1f;
   width: 16%;

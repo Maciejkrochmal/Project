@@ -11,19 +11,22 @@ export const Faction = ({id, pick}) =>{
     },[])
 
     const handleClick = () =>{
-        pick(faction, 0)
+        pick(faction, id)
 
     }
     return(
         <div className="faction-to-pick">
             <div className="faction-pick-img">
-                <img src={faction.img} alt={{name}} />
+                <img src={faction.img}  className="player-img" alt={{name}} />
             </div>
-            <h1>{faction.factionName}</h1>
-            <div className="faction-pick-perk">{faction.factionPerc1}</div>
-            <div className="faction-pick-perk">{faction.factionPerc2}</div>
-            <div className="faction-pick-perk">{faction.factionPerc3}</div>
-            <button onClick={handleClick}> Pick Faction </button>
+
+            <div className="faction-pick-discription">
+                <h1>{faction.factionName}</h1>
+                <div className="faction-pick-perk">{faction.factionPerc1}</div>
+                <div className="faction-pick-perk">{faction.factionPerc2}</div>
+                <div className="faction-pick-perk">{faction.factionPerc3}</div>
+            </div>
+            <button className="player-edit" onClick={handleClick}> Pick Faction </button>
         </div>
     )
 }

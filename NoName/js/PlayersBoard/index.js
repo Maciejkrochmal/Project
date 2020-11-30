@@ -15,14 +15,15 @@ export const PlayersBoard = ({newPlayer}) =>{
 
         newPlayer(1)
     }
-
+    console.log(players.length)
     return(
         <section className="main-container">
             <img className={"edgebackground"} src={paseImg}/>
             {players.map(el => <Player key={el.id} img={el.img} name={el.name} faction={el.faction} perc={el.perc1} addButton={handleAdd}/>)}
-            <div className="player-container">
+            {players.length < 6 ? <div className="player-container">
                 <button className="player-add" onClick={handleAdd}>Add player +</button>
             </div>
+            :null}
         </section>
     )
 }

@@ -21,7 +21,6 @@ export const FactionPick = ({newPlayer}) => {
         setRandomId(tmp)
     }
     const handleAddPlayer = (el, bk) =>{
-        newPlayer(bk)
         setPlayer({
             name: playerName,
             faction: el.factionName,
@@ -38,9 +37,20 @@ export const FactionPick = ({newPlayer}) => {
                 destroyer: el.fleet.destroyer,
                 fighter: el.fleet.fighter,
                 infantry: el.fleet.infantry,
-                PDS: el.fleet.PDS}
+                PDS: el.fleet.PDS
+            },
+            ships: {
+                mothership: 0,
+                warSun: 0,
+                dreadnought: 0,
+                carrier: 0,
+                crusier: 0,
+                destroyer: 0,
+                fighter: 0,
+                infantry: 0,
+                PDS: 0
+            }
         })
-
     }
     useEffect(()=>{
         player === null ? console.log('czekam') :
@@ -85,12 +95,3 @@ export const FactionPick = ({newPlayer}) => {
     )
 }
 
-//{factions.map(el =>
-//                     <Faction
-//                         key={el.factionId}
-//                         name={el.factionName}
-//                         perc={el.factionPerc1}
-//                         perc2={el.factionPerc2}
-//                         fleet={el.fleet}
-//                         img={el.img}
-//                     />)}

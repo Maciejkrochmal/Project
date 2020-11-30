@@ -1,11 +1,9 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .faction-pick-container {
   display: flex;
-  height: 99vh;
+  justify-content: center;
+  align-items: center;
+  max-width: 1300px;
+  align-self: center;
 }
 .big-img-faction{
   width: 500px;
@@ -14,6 +12,7 @@ body {
 }
 .faction-container {
   display: flex;
+  align-items: center;
   flex-direction: column;
 }
 .faction-header, .faction-draw, .faction-player {
@@ -28,21 +27,41 @@ body {
   height: 50px;
 }
 .faction-to-pick {
-  background-color: #002b36;
+  background-color: #0A2463;
   margin: 20px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 43px 10px rgba(20,79,130,0.69);
+  border-radius: 6px;
+  background-image: url("../database/assets/playerbck.png");
+  font-size: 15px;
+  width: 30%;
 }
 .faction-details {
   display: flex;
   justify-content: center;
   background-color: #8bc34a;
-  margin: 20px;
+  height: 637px;
 }
 .edgebackground{
+  background-attachment: fixed;
   position: absolute;
-  max-width: 100vw;
   z-index: -1;
-  max-height: 100vh;
+  top: 6%;
+  background-repeat: no-repeat;
+}
+.faction-pick-discription{
+  overflow-y: auto;
+  color: wheat;
+  background-color: black;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  height: 47%;
+  border: 3px outset #00D1FF;
+  background: radial-gradient(ellipse at center, #08E0FF 0%, #1C6EA4 0%, #000000 100%);
 }
