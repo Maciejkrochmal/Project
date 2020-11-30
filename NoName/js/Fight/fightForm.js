@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 
-export const FightForm = ({playerOne, playerTwo}) =>{
+export const FightForm = ({playerOne, playerTwo, syb}) =>{
     const API = "http://localhost:3000"
     const [fleetOne, setFleetOne] = useState({
         name:playerOne?.name || playerTwo?.name,
@@ -35,15 +35,9 @@ export const FightForm = ({playerOne, playerTwo}) =>{
 
     const handleSubmit = e =>{
         e.preventDefault()
-        fetch(`${API}/fightData/${playerOne?.id || playerTwo?.id}`,{
-            method: "PUT",
-            body:JSON.stringify(fleetOne),
-            headers:{
-                "Content-Type": "application/json"
-            }
-        })
-            .then(res => res.json())
-            .then(check => console.log(check))
+        console.log(fleetOne)
+
+        syb(fleetOne)
     }
 
     return(
@@ -84,3 +78,14 @@ export const FightForm = ({playerOne, playerTwo}) =>{
         </form>
     )
 }
+
+
+// fetch(`${API}/fightData/${playerOne?.id || playerTwo?.id}`,{
+//     method: "PUT",
+//     body:JSON.stringify(fleetOne),
+//     headers:{
+//         "Content-Type": "application/json"
+//     }
+// })
+//     .then(res => res.json())
+//     .then(check => console.log(check))

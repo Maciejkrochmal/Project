@@ -3,17 +3,23 @@ import ReactDOM from "react-dom";
 import {PlayersBoard} from "./PlayersBoard";
 import {FactionPick} from "./FactionBoard/factionPick";
 import {FightPreparation} from "./Fight/fightPreparation";
+import {Nav} from "./nav";
 
 
 const App = () => {
     const [index, setIndex] = useState(0)
 
     const handleAdd = (e) => {
-        setIndex(1)
+        setIndex(e)
     }
 
 return (
-    <FightPreparation/>
+    <>
+    <Nav navJump={handleAdd}/>
+        {index === 2 ? <FightPreparation/> :null}
+        {index === 0? <PlayersBoard newPlayer={handleAdd}/>:null}
+        {index === 1 ?<FactionPick newPlayer={handleAdd}/>:null}
+    </>
 )
 }
 
@@ -21,4 +27,4 @@ return (
 ReactDOM.render(<App/>, document.getElementById("app"));
 
 
-//    return index === 0?(<PlayersBoard newPlayer={handleAdd}/>):(<FactionPick newPlayer={handleAdd}/>)
+   // return index === 0?(<PlayersBoard newPlayer={handleAdd}/>):(<FactionPick newPlayer={handleAdd}/>)

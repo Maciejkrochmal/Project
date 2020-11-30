@@ -11,7 +11,10 @@ export const FightPreparation = () => {
         playerOne:null,
         playerTwo:null
     })
-
+    const [pvp1, setPvp1] = useState( {
+        playerOne1:null,
+        playerTwo1:null
+    })
     useEffect(()=>{
         fetch(`${API}/players/`)
             .then(resp => resp.json())
@@ -19,6 +22,7 @@ export const FightPreparation = () => {
     },[])
 
     const handleOnChange = e => {
+        e.target.className += "hidden"
         const side = e.target.name
         const el = e.target.value
         const player = players[el-1]
@@ -33,8 +37,21 @@ export const FightPreparation = () => {
                 ...prev,
                 playerTwo: player
             }))
-
     }
+
+        const handleUpdatePVP = (atr) =>{
+            atr.name === pvp.playerOne.name?
+            setPvp1(prev =>({
+                ...prev,
+                playerOne1: atr
+            }))
+                :
+                setPvp1(prev =>({
+                    ...prev,
+                    playerTwo1: atr
+                }))
+        }
+
     return(
         <section className="fight-container">
             <div>
@@ -43,13 +60,14 @@ export const FightPreparation = () => {
                     {pvp.playerOne === null ?
                         <FightPlayerMissing/>
                         :
-                        <FightPlayerDetails playerOne={pvp.playerOne}/>}
+                        <FightPlayerDetails playerOne={pvp.playerOne}/>
+                    }
                     <select onChange={handleOnChange} name={"playerOne"}>
                         <option value="">Select One …</option>
                         {players.map(el =><option key={el.id} value={el.id}>{el.name}</option> )}
                     </select>
 
-                {pvp.playerOne != null ? <FightForm playerOne={pvp.playerOne}/> : null}
+                {pvp.playerOne != null ? <FightForm playerOne={pvp.playerOne} syb={handleUpdatePVP}/> : null}
             </div>
 
             <div className="fight-player">
@@ -57,21 +75,25 @@ export const FightPreparation = () => {
                     {pvp.playerTwo === null ?
                         <FightPlayerMissing/>
                         :
-                        <FightPlayerDetails playerOne={pvp.playerTwo}/>}
+                        <FightPlayerDetails playerOne={pvp.playerTwo}/>
+                    }
                     <select onChange={handleOnChange} name={"playerTwo"}>
                         <option value="">Select One …</option>
                         {players.map(el =><option key={el.id} value={el.id}>{el.name}</option> )}
                     </select>
                 <div className="fight-player-container-form">
-                    {pvp.playerTwo !== null ? <FightForm playerTwo={pvp.playerTwo}/> : null}
+                    {pvp.playerTwo !== null ? <FightForm playerTwo={pvp.playerTwo} syb={handleUpdatePVP}/> : null}
                 </div>
             </div>
             </div>
             <div className="fight-player-war-container">
-                <button>Walcz!</button>
                 <h1>Combat Log!</h1>
-                {/*{pvp.playerOne !== null ? <FightLogic playerOne={pvp.playerOne} playerTwo={pvp.playerTwo}/> : null}*/}
-                <FightLogic playerOne={pvp.playerOne} playerTwo={pvp.playerTwo}/>
+                {pvp1.playerOne1 !== null?
+                    <FightLogic playerOne={pvp1.playerOne1} pOne={pvp.playerOne}/>
+                    :null}
+                {pvp1.playerTwo1 !== null?
+                    <FightLogic playerTwo={pvp1.playerTwo1} pTwo={pvp.playerTwo}/>
+                    :null}
             </div>
         </section>
     )

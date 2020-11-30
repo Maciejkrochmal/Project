@@ -33,3 +33,23 @@ p{
 .player-edit{
   margin: 10px;
 }
+
+.nav-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  border: 2px solid black;
+}
+.nav-bar-btn{
+  cursor: pointer;
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid red;
+  color: white;
+  background: darkred;
+  border-radius: 19px;
+  width: 90px;
+  text-align: center;
+}

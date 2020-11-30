@@ -33,4 +33,8 @@ body{
 .fight-player-war-container{
     width: 500px;
     height: 860px;
+    display: flex;
+}
+.hidden{
+    display: none;
 }

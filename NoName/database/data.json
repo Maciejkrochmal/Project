@@ -18,6 +18,17 @@
         "infantry": 7,
         "PDS": 6
       },
+      "ships": {
+        "mothership": 0,
+        "warSun": 0,
+        "dreadnought": 0,
+        "carrier": 0,
+        "crusier": 0,
+        "destroyer": 0,
+        "fighter": 0,
+        "infantry": 0,
+        "PDS": 0
+      },
       "id": 1
     },
     {
@@ -37,6 +48,17 @@
         "fighter": 9,
         "infantry": 8,
         "PDS": 6
+      },
+      "ships": {
+        "mothership": 0,
+        "warSun": 0,
+        "dreadnought": 0,
+        "carrier": 0,
+        "crusier": 0,
+        "destroyer": 0,
+        "fighter": 0,
+        "infantry": 0,
+        "PDS": 0
       },
       "id": 2
     },
@@ -58,6 +80,17 @@
         "infantry": 8,
         "PDS": 6
       },
+      "ships": {
+        "mothership": 0,
+        "warSun": 0,
+        "dreadnought": 0,
+        "carrier": 0,
+        "crusier": 0,
+        "destroyer": 0,
+        "fighter": 0,
+        "infantry": 0,
+        "PDS": 0
+      },
       "id": 3
     },
     {
@@ -77,6 +110,17 @@
         "fighter": 9,
         "infantry": 8,
         "PDS": 6
+      },
+      "ships": {
+        "mothership": 0,
+        "warSun": 0,
+        "dreadnought": 0,
+        "carrier": 0,
+        "crusier": 0,
+        "destroyer": 0,
+        "fighter": 0,
+        "infantry": 0,
+        "PDS": 0
       },
       "id": 4
     },
@@ -98,6 +142,17 @@
         "infantry": 8,
         "PDS": 6
       },
+      "ships": {
+        "mothership": 0,
+        "warSun": 0,
+        "dreadnought": 0,
+        "carrier": 0,
+        "crusier": 0,
+        "destroyer": 0,
+        "fighter": 0,
+        "infantry": 0,
+        "PDS": 0
+      },
       "id": 5
     },
     {
@@ -117,6 +172,17 @@
         "fighter": 9,
         "infantry": 8,
         "PDS": 6
+      },
+      "ships": {
+        "mothership": 0,
+        "warSun": 0,
+        "dreadnought": 0,
+        "carrier": 0,
+        "crusier": 0,
+        "destroyer": 0,
+        "fighter": 0,
+        "infantry": 0,
+        "PDS": 0
       },
       "id": 6
     }
@@ -346,38 +412,58 @@
   "fightData": [
     {
       "name": "Player 1",
-      "mothership": 1,
-      "warSun": 1,
+      "mothership": 0,
+      "warSun": 0,
       "dreadnought": 0,
-      "carrier": 2,
-      "crusier": 1,
+      "carrier": 0,
+      "crusier": 0,
       "destroyer": 0,
       "fighter": 0,
-      "infantry": 3,
+      "infantry": 0,
       "PDS": 0,
       "id": 1
     },
     {
       "name": "Player 2",
       "mothership": 0,
-      "warSun": 0,
-      "dreadnought": 5,
+      "warSun": 4,
+      "dreadnought": 0,
       "carrier": 0,
       "crusier": 0,
       "destroyer": 0,
       "fighter": 0,
-      "infantry": 4,
+      "infantry": 0,
       "PDS": 0,
       "id": 2
     },
     {
+      "name": "Player 2",
+      "mothership": 0,
+      "warSun": 0,
+      "dreadnought": 0,
+      "carrier": 0,
+      "crusier": 0,
+      "destroyer": 0,
+      "fighter": 0,
+      "infantry": 0,
+      "PDS": 0,
       "id": 3
     },
     {
+      "name": "Player 2",
+      "mothership": 0,
+      "warSun": 0,
+      "dreadnought": 0,
+      "carrier": 0,
+      "crusier": 0,
+      "destroyer": 0,
+      "fighter": 0,
+      "infantry": 0,
+      "PDS": 0,
       "id": 4
     },
     {
-      "name": "Player 5",
+      "name": "Player 2",
       "mothership": 0,
       "warSun": 0,
       "dreadnought": 0,
@@ -391,13 +477,13 @@
     },
     {
       "name": "Player 6",
-      "mothership": 10,
+      "mothership": 0,
       "warSun": 0,
       "dreadnought": 0,
       "carrier": 0,
       "crusier": 0,
-      "destroyer": 10,
-      "fighter": 14,
+      "destroyer": 0,
+      "fighter": 4,
       "infantry": 0,
       "PDS": 0,
       "id": 6
