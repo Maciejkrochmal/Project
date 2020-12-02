@@ -35,8 +35,6 @@ export const FightForm = ({playerOne, playerTwo, syb}) =>{
 
     const handleSubmit = e =>{
         e.preventDefault()
-        console.log(fleetOne)
-
         syb(fleetOne)
     }
 
@@ -46,35 +44,35 @@ export const FightForm = ({playerOne, playerTwo, syb}) =>{
             <div className="fight-player-container-fleet">
                 <h1>Pick your fleet !</h1>
                 <p>Mothership : {fleetOne.mothership}</p>
-                <button onClick={handleAddShip} name={"mothership"}> + </button>
-                <button onClick={handleSubShip} name={"mothership"}> - </button>
+                <button className="button-fight-click" onClick={handleAddShip} name={"mothership"}> + </button>
+                <button className="button-fight-click" onClick={handleSubShip} name={"mothership"}> - </button>
                 <p>War Sun : {fleetOne.warSun}</p>
-                <button onClick={handleAddShip} name={"warSun"}> + </button>
-                <button onClick={handleSubShip} name={"warSun"}> - </button>
+                <button className="button-fight-click" onClick={handleAddShip} name={"warSun"}> + </button>
+                <button className="button-fight-click" onClick={handleSubShip} name={"warSun"}> - </button>
                 <p>Drednought : {fleetOne.dreadnought}</p>
-                <button onClick={handleAddShip} name={"dreadnought"}> + </button>
-                <button onClick={handleSubShip} name={"dreadnought"}> - </button>
+                <button className="button-fight-click" onClick={handleAddShip} name={"dreadnought"}> + </button>
+                <button className="button-fight-click" onClick={handleSubShip} name={"dreadnought"}> - </button>
                 <p>Carrierr : {fleetOne.carrier}</p>
-                <button onClick={handleAddShip} name={"carrier"}> + </button>
-                <button onClick={handleSubShip} name={"carrier"}> - </button>
+                <button className="button-fight-click" onClick={handleAddShip} name={"carrier"}> + </button>
+                <button className="button-fight-click" onClick={handleSubShip} name={"carrier"}> - </button>
                 <p>Fighter : {fleetOne.fighter}</p>
-                <button onClick={handleAddShip} name={"fighter"}> + </button>
-                <button onClick={handleSubShip} name={"fighter"}> - </button>
+                <button className="button-fight-click" onClick={handleAddShip} name={"fighter"}> + </button>
+                <button className="button-fight-click" onClick={handleSubShip} name={"fighter"}> - </button>
                 <p>Crusier : {fleetOne.crusier}</p>
-                <button onClick={handleAddShip} name={"crusier"}> + </button>
-                <button onClick={handleSubShip} name={"crusier"}> - </button>
+                <button className="button-fight-click" onClick={handleAddShip} name={"crusier"}> + </button>
+                <button className="button-fight-click" onClick={handleSubShip} name={"crusier"}> - </button>
                 <p>Destroyer  : {fleetOne.destroyer}</p>
-                <button onClick={handleAddShip} name={"destroyer"}> + </button>
-                <button onClick={handleSubShip} name={"destroyer"}> - </button>
+                <button className="button-fight-click" onClick={handleAddShip} name={"destroyer"}> + </button>
+                <button className="button-fight-click" onClick={handleSubShip} name={"destroyer"}> - </button>
                 <p>Infantry : {fleetOne.infantry}</p>
-                <button onClick={handleAddShip} name={"infantry"}> + </button>
-                <button onClick={handleSubShip} name={"infantry"}> - </button>
+                <button className="button-fight-click" onClick={handleAddShip} name={"infantry"}> + </button>
+                <button className="button-fight-click" onClick={handleSubShip} name={"infantry"}> - </button>
                 <p>PDS : {fleetOne.PDS}</p>
-                <button onClick={handleAddShip} name={"PDS"}> + </button>
-                <button onClick={handleSubShip} name={"PDS"}> - </button>
-
+                <button className="button-fight-click" onClick={handleAddShip} name={"PDS"}> + </button>
+                <button className="button-fight-click" onClick={handleSubShip} name={"PDS"}> - </button>
+                <button type={"submit"}> Gotowy !</button>
             </div>
-            <button type={"submit"}> Gotowy !</button>
+
         </form>
     )
 }

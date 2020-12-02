@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import tmpImg from "../../database/assets/SAAR.png";
+import tmpImg from "../../database/assets/abstract.jpg";
 
 export const FightPlayerMissing = () =>{
 

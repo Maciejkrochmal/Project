@@ -23,7 +23,7 @@ body {
   background-color: #0A2463;
   margin: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   box-shadow: 5px 5px 43px 10px rgba(20,79,130,0.69);
@@ -113,7 +113,6 @@ p{
   justify-content: center;
   cursor: pointer;
   color: #ffffff;
-  font-family: Trebuchet MS;
   font-size: 15px;
   padding: 6px 13px;
   text-decoration: none;

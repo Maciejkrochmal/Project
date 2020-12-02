@@ -15,16 +15,37 @@
   align-items: center;
   flex-direction: column;
 }
-.faction-header, .faction-draw, .faction-player {
+.faction-container-box, .faction-draw {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #00b3ff;
+  background-image: url("../database/assets/preview16.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0.5);
+  box-shadow: inset 0px 0px 18px 50px rgba(0,0,0,0.67);
+  border-radius: 5px;
   margin: 20px;
+  width: 100%;
+  height: 150px;
 }
-.faction-draw{
-  height: 50px;
+.faction-container-box::before{
+  background-color: #0A2463;
+}
+.faction-text-container{
+  background-color: #0A2463;
+  color: wheat;
+  height: 85px;
+  width: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: inset 0px 0px 18px 50px rgba(0,0,0,0.67);
+  border: 2px solid lightblue;
+  border-radius: 5px;
 }
 .faction-to-pick {
   background-color: #0A2463;
@@ -42,7 +63,7 @@
 .faction-details {
   display: flex;
   justify-content: center;
-  background-color: #8bc34a;
+  background-color: rgba(0,0,0,0.5);
   height: 637px;
 }
 .edgebackground{

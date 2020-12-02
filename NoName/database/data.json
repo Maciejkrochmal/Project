@@ -63,7 +63,7 @@
       "id": 2
     },
     {
-      "name": "Player 3",
+      "name": "Maciej",
       "faction": "The Embers of Muaat",
       "perc1": "STAR FORGE: ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your war suns.",
       "perc2": "GASHLAI PHYSIOLOGY: Your ships can move through supernovas.",
@@ -92,99 +92,6 @@
         "PDS": 0
       },
       "id": 3
-    },
-    {
-      "name": "Player 4",
-      "faction": "The Mentak Coalition",
-      "perc1": "AMBUSH: At the start of a space combat, you may roll 1 die for each of up to 2 of your cruisers or destroyers in the system.  For each result equal to or greater than that ship's combat value, produce 1 hit; your opponent must assign it to 1 of his ships.",
-      "perc2": "PILLAGE: After 1 of your neighbors gains trade goods or resolves a transaction, if he has 3 or more trade goods, you may take 1 of his trade goods or commodities.",
-      "perc3": null,
-      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/d/d7/MENTAK.png",
-      "fleet": {
-        "mothership": 7,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6
-      },
-      "ships": {
-        "mothership": 0,
-        "warSun": 0,
-        "dreadnought": 0,
-        "carrier": 0,
-        "crusier": 0,
-        "destroyer": 0,
-        "fighter": 0,
-        "infantry": 0,
-        "PDS": 0
-      },
-      "id": 4
-    },
-    {
-      "name": "Player 5",
-      "faction": "The L1Z1X Mindnet",
-      "perc1": "ASSIMILATE: When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements.",
-      "perc2": "HARROW: At the end of each round of ground combat, your ships in the active system may use their Bombardment abilities against your opponent's ground forces on the planet.",
-      "perc3": null,
-      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/e/ec/L1Z1XArt.png",
-      "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6
-      },
-      "ships": {
-        "mothership": 0,
-        "warSun": 0,
-        "dreadnought": 0,
-        "carrier": 0,
-        "crusier": 0,
-        "destroyer": 0,
-        "fighter": 0,
-        "infantry": 0,
-        "PDS": 0
-      },
-      "id": 5
-    },
-    {
-      "name": "Player 6",
-      "faction": "The L1Z1X Mindnet",
-      "perc1": "ASSIMILATE: When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements.",
-      "perc2": "HARROW: At the end of each round of ground combat, your ships in the active system may use their Bombardment abilities against your opponent's ground forces on the planet.",
-      "perc3": null,
-      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/e/ec/L1Z1XArt.png",
-      "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6
-      },
-      "ships": {
-        "mothership": 0,
-        "warSun": 0,
-        "dreadnought": 0,
-        "carrier": 0,
-        "crusier": 0,
-        "destroyer": 0,
-        "fighter": 0,
-        "infantry": 0,
-        "PDS": 0
-      },
-      "id": 6
     }
   ],
   "factions": [

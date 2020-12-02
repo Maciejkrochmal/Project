@@ -1,17 +1,17 @@
-body{
-    margin: 0;
-    padding: 0;
-}
 
 .fight-container {
-    background-color: #00b3ff;
+    display: flex;
+    justify-content: center;
 }
 
 .fight-player{
     display: flex;
     align-items: flex-start;
     padding: 10px;
-    height: 430px;
+    height: 454px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 21px 13px rgba(0,0,0,0.53);
+    background-color: rgba(0,0,0,0.5);
 }
 
 .fight-player-img{
@@ -21,20 +21,101 @@ body{
 }
 
 .fight-player-container{
+    color: white;
     margin-left: 5px;
     padding: 20px;
     width: 180px;
-    height: 360px;
+    height: 418px;
     background-color: #2d4d76;
+    background-image: url("../database/assets/pvp.jpg");
+
 }
 .fight-player-container-form{
     width: 120px;
 }
 .fight-player-war-container{
+    padding: 10px;
     width: 500px;
-    height: 860px;
-    display: flex;
+    max-height: 937px;
+    background: lightblue;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 21px 13px rgba(0,0,0,0.53);
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 24px;
 }
 .hidden{
     display: none;
+}
+.fight-player-container-fleet{
+    color: white;
+    background-image: url("../database/assets/pvp.jpg");
+
+    background-position-x: -215px;
+    background-color: #00b3ff;
+    width: 215px;
+}
+
+.fight-player-war-players {
+    display: flex;
+    padding: 10px;
+    margin-top: 47px;
+}
+
+
+.fight-player-war-log {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.button-fight-click{
+    color: white;
+    width: 40px;
+    margin: 1px 5px 5px 25px;
+    background-color: black;
+}
+.fight-player-container-header{
+    margin-top: 67px;
+height: 100px;
+color: white;
+padding: 20px;
+font-size: 20px;
+}
+
+.fight-player-war-container-bck{
+    background-image: url(../database/assets/wind.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.myButton {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color:#ffffff;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#666666;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color:#f6f6f6;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
 }

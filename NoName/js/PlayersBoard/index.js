@@ -21,7 +21,13 @@ export const PlayersBoard = ({newPlayer}) =>{
             <img className={"edgebackground"} src={paseImg}/>
             {players.map(el => <Player key={el.id} img={el.img} name={el.name} faction={el.faction} perc={el.perc1} addButton={handleAdd}/>)}
             {players.length < 6 ? <div className="player-container">
-                <button className="player-add" onClick={handleAdd}>Add player +</button>
+                    <a href="#" className="animated-button1" onClick={handleAdd}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        New Player
+                    </a>
             </div>
             :null}
         </section>

@@ -74,18 +74,28 @@ export const FactionPick = ({newPlayer}) => {
         <section className="faction-pick-container">
                 <img className={"edgebackground"} src={paseImg}/>
             <div className="faction-container">
-                <header className="faction-header">
-                    <h1>Wybierz frakcje oraz podaj nick/imie gracza</h1>
-                    <button onClick={handleAddNick}> Wracam</button>
-                </header>
-                <div className="faction-player">
-                    <h1>Nick gracza</h1>
-                    <input type="text" placeholder="Podaj nick" onChange={handleAddNick}/>
+                <header className="faction-container-box">
+                    <div className="faction-text-container">
+                        <h1>Wybierz frakcje oraz podaj nick/imie gracza</h1>
+                    </div>
 
+                </header>
+                <div className="faction-container-box">
+                    <div className="faction-text-container">
+                        <h1>{playerName}</h1>
+                        <input type="text" placeholder="Podaj nick" onChange={handleAddNick}/>
+
+                     </div>
                 </div>
                 {randomId.length === 0 ?
                 <div className="faction-draw">
-                    <button type="button" onClick={handleRandom}> Wylosuj frakcje</button>
+                    <a href="#" className="animated-button4" onClick={handleRandom}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Random Faction
+                    </a>
                 </div> :
                 <div className="faction-details">
                     {randomId?.map((el, i) =><Faction key={i} id={el} pick={handleAddPlayer}/>)}

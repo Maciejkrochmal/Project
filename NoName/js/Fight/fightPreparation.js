@@ -3,6 +3,7 @@ import {FightPlayerDetails} from "./fightPlayerDetails";
 import {FightPlayerMissing} from "./fightPlayerMissing";
 import {FightForm} from "./fightForm";
 import {FightLogic} from "./fightLogic";
+import paseImg from "../../database/assets/351029710_orig.jpg";
 
 export const FightPreparation = () => {
     const API = "http://localhost:3000"
@@ -54,6 +55,7 @@ export const FightPreparation = () => {
 
     return(
         <section className="fight-container">
+            <img className={"edgebackground"} src={paseImg}/>
             <div>
             <div className="fight-player">
 
@@ -87,13 +89,19 @@ export const FightPreparation = () => {
             </div>
             </div>
             <div className="fight-player-war-container">
-                <h1>Combat Log!</h1>
-                {pvp1.playerOne1 !== null?
-                    <FightLogic playerOne={pvp1.playerOne1} pOne={pvp.playerOne}/>
-                    :null}
-                {pvp1.playerTwo1 !== null?
-                    <FightLogic playerTwo={pvp1.playerTwo1} pTwo={pvp.playerTwo}/>
-                    :null}
+                <div className="fight-player-war-container-bck">
+                    <div className="fight-player-container-header">
+                        <h3>Combat Log!</h3>
+                    </div>
+                    <div className="fight-player-war-players">
+                        {pvp1.playerOne1 !== null?
+                            <FightLogic playerOne={pvp1.playerOne1} pOne={pvp.playerOne}/>
+                            :null}
+                        {pvp1.playerTwo1 !== null?
+                            <FightLogic playerTwo={pvp1.playerTwo1} pTwo={pvp.playerTwo}/>
+                            :null}
+                    </div>
+                </div>
             </div>
         </section>
     )

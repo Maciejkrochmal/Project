@@ -27,8 +27,6 @@ export const FightLogic = ({playerOne,pOne, playerTwo,pTwo}) =>{
        if(playerOne === null || playerTwo === null){
            console.log('Brak')
        } else {
-
-
         const fleetData = pOne?.fleet || pTwo?.fleet
         const fleetNames = Object.getOwnPropertyNames(fleetData)
         for(let i = 0; i<fleetNames.length; i++){
@@ -45,9 +43,11 @@ export const FightLogic = ({playerOne,pOne, playerTwo,pTwo}) =>{
 
     return(
         <div className="fight-player-war-log">
-            <button onClick={handleUpdate}> Update Data </button>
-            <h1> {playerOne?.name || playerTwo?.name} one trafil {playOneCount.success} oraz nie trafil {playOneCount.miss}</h1>
-            <button onClick={playerSuccess}> Roll the Dice !</button>
+            <button className="myButton" onClick={handleUpdate}> Send Fleet </button>
+            <h1> {playerOne?.name || playerTwo?.name} </h1>
+            <p> Shots that reach the target   {playOneCount.success} !</p>
+            <p> Shots lost in space  {playOneCount.miss} </p>
+            <button className="myButton" onClick={playerSuccess}> Roll the Dice !</button>
             {fleetOne !== null ? <ShipList fleet={fleetOne} dmg={handleDMG}/> : null}
         </div>
     )
