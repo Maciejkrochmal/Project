@@ -1,22 +1,49 @@
 {
   "players": [
     {
-      "name": "Marek",
-      "faction": "The Federation of Sol",
-      "perc1": "ORBITAL DROP: ACTION: Spend 1 token from your strategy pool to place 2 infantry from your reinforcements on 1 planet you control.",
-      "perc2": "VERSATILE: When you gain command tokens during the status phase, gain 1 additional command token.",
+      "name": "MK",
+      "faction": "The Clan of Saar",
+      "perc1": "SCAVENGE: After you gain control of a planet, gain 1 trade good.",
+      "perc2": "NOMADIC: You can score objectives even if you do not control the planets in your home system.",
       "perc3": null,
-      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/9/98/SOL.png",
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/5/59/SAAR.png",
       "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 7,
-        "PDS": 6
+        "mothership": [
+          2,
+          5
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ]
       },
       "ships": {
         "mothership": 0,
@@ -32,22 +59,49 @@
       "id": 1
     },
     {
-      "name": "Marysia",
-      "faction": "The Clan of Saar",
-      "perc1": "SCAVENGE: After you gain control of a planet, gain 1 trade good.",
-      "perc2": "NOMADIC: You can score objectives even if you do not control the planets in your home system.",
-      "perc3": null,
-      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/5/59/SAAR.png",
+      "name": "GB",
+      "faction": "The Ghosts of Creuss",
+      "perc1": "QUANTUM ENTANGLEMENT : You treat all systems that contain either an alpha or beta wormhole as adjacent to each other. Game effects cannot prevent you from using this ability.",
+      "perc2": "SLIPSTREAM: During your tactical actions, apply +1 to the move value of each of your ships that starts its movement in your home system  or in a system that contains either an alpha or beta wormhole",
+      "perc3": "CREUSS GATE: When you create the game board, place the Creuss Gate (tile 17) where your home system would normally be placed. The Creuss Gate system is not a home system. Then, place your home system (tile 51) in your play area.\n",
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/4/4b/GHOSTS.png",
       "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6
+        "mothership": [
+          1,
+          5
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ]
       },
       "ships": {
         "mothership": 0,
@@ -61,99 +115,6 @@
         "PDS": 0
       },
       "id": 2
-    },
-    {
-      "name": "Maciej",
-      "faction": "The Embers of Muaat",
-      "perc1": "STAR FORGE: ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your war suns.",
-      "perc2": "GASHLAI PHYSIOLOGY: Your ships can move through supernovas.",
-      "perc3": null,
-      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/5/52/MUAAT.png",
-      "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6
-      },
-      "ships": {
-        "mothership": 0,
-        "warSun": 0,
-        "dreadnought": 0,
-        "carrier": 0,
-        "crusier": 0,
-        "destroyer": 0,
-        "fighter": 0,
-        "infantry": 0,
-        "PDS": 0
-      },
-      "id": 3
-    },
-    {
-      "name": "Pawel",
-      "faction": "The Barony of Letnev",
-      "perc1": "MUNITIONS RESERVES: At the start of each round of space combat, you may spend 2 trade goods;  you may re-roll any number of your dice during that combat round.",
-      "perc2": "ARMADA: The maximum number of non-fighter ships you can have in each system is equal to 2 more than the number of tokens in your fleet pool.",
-      "perc3": null,
-      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/b/b4/BARONY.png",
-      "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6
-      },
-      "ships": {
-        "mothership": 0,
-        "warSun": 0,
-        "dreadnought": 0,
-        "carrier": 0,
-        "crusier": 0,
-        "destroyer": 0,
-        "fighter": 0,
-        "infantry": 0,
-        "PDS": 0
-      },
-      "id": 4
-    },
-    {
-      "name": "Pawel",
-      "faction": "The Barony of Letnev",
-      "perc1": "MUNITIONS RESERVES: At the start of each round of space combat, you may spend 2 trade goods;  you may re-roll any number of your dice during that combat round.",
-      "perc2": "ARMADA: The maximum number of non-fighter ships you can have in each system is equal to 2 more than the number of tokens in your fleet pool.",
-      "perc3": null,
-      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/b/b4/BARONY.png",
-      "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6
-      },
-      "ships": {
-        "mothership": 0,
-        "warSun": 0,
-        "dreadnought": 0,
-        "carrier": 0,
-        "crusier": 0,
-        "destroyer": 0,
-        "fighter": 0,
-        "infantry": 0,
-        "PDS": 0
-      },
-      "id": 5
     }
   ],
   "factions": [
@@ -165,15 +126,42 @@
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/f/fd/ARBOREC.png",
       "fleet": {
-        "mothership": 7,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          7
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
@@ -185,15 +173,42 @@
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/b/b4/BARONY.png",
       "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          5
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
@@ -205,15 +220,42 @@
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/5/59/SAAR.png",
       "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          5
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "This unit is placed in a space area instead of on a planet.  This unit can move and retreat as if it were a ship.  If this unit is blockaded, it is destroyed."
       }
     },
@@ -225,15 +267,42 @@
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/5/52/MUAAT.png",
       "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          5
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
@@ -245,15 +314,42 @@
       "factionPerc3": "ARBITERS: When you are negotiating a transaction, action cards can be exchanged as part of that transaction.",
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/d/d4/HACAN.png",
       "fleet": {
-        "mothership": 7,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          7
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
@@ -265,15 +361,42 @@
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/9/98/SOL.png",
       "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 7,
-        "PDS": 6,
+        "mothership": [
+          2,
+          5
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          7
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
@@ -285,15 +408,42 @@
       "factionPerc3": "CREUSS GATE: When you create the game board, place the Creuss Gate (tile 17) where your home system would normally be placed. The Creuss Gate system is not a home system. Then, place your home system (tile 51) in your play area.\n",
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/4/4b/GHOSTS.png",
       "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          1,
+          5
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
@@ -305,15 +455,42 @@
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/e/ec/L1Z1XArt.png",
       "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          5
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
@@ -325,15 +502,42 @@
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/d/d7/MENTAK.png",
       "fleet": {
-        "mothership": 7,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          7
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
@@ -345,15 +549,42 @@
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/8/88/NAALU.png",
       "fleet": {
-        "mothership": 9,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 8,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          9
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          8
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
@@ -365,15 +596,42 @@
       "factionPerc3": "PROPAGATION: You cannot research technology.  When you would research a technology, gain 3 command tokens instead.",
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/f/fb/NEKRO.png",
       "fleet": {
-        "mothership": 7,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          9
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
@@ -385,15 +643,42 @@
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/3/38/SARDAKK.png",
       "fleet": {
-        "mothership": 7,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          6
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
@@ -405,15 +690,42 @@
       "factionPerc3": "ANALYTICAL: When you research a technology that is not a unit upgrade technology, you may ignore 1 prerequisite.",
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/4/48/JOLNAR.png",
       "fleet": {
-        "mothership": 7,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          6
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
@@ -425,15 +737,42 @@
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/5/53/WINNU.png/revision/latest/scale-to-width-down/1000?cb=20201025053949",
       "fleet": {
-        "mothership": 7,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          1,
+          7
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
@@ -445,15 +784,42 @@
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/a/a4/YIN.png",
       "fleet": {
-        "mothership": 7,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          7
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
@@ -465,178 +831,420 @@
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/3/38/SARDAKK.png",
       "fleet": {
-        "mothership": 9,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          9
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
     {
       "id": 17,
       "factionName": "The Yssaril Tribes",
-      "factionPerc1":"STALL TACTICS: ACTION: Discard 1 action card from your hand",
-      "factionPerc2":"SCHEMING: When you draw 1 or more action cards, draw 1 additional action card.  Then, choose and discard 1 action card from your hand.",
+      "factionPerc1": "STALL TACTICS: ACTION: Discard 1 action card from your hand",
+      "factionPerc2": "SCHEMING: When you draw 1 or more action cards, draw 1 additional action card.  Then, choose and discard 1 action card from your hand.",
       "factionPerc3": "CRAFTY: You can have any number of action cards in your hand.  Game effects cannot prevent you from using this ability.",
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/4/47/YSSARIL.png",
       "fleet": {
-        "mothership": 9,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          5
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
     {
       "id": 18,
       "factionName": "The Argent Flight",
-      "factionPerc1":"ZEAL - You always vote first during the agenda phase. When you cast at least 1 vote, cast 1 additional vote for each player in the game including you.",
-      "factionPerc2":"RAID FORMATION - When 1 or more of your units uses ANTI-FIGHTER BARRAGE, for each hit produced in excess of your opponent's Fighters, choose 1 of your opponent's ships that has SUSTAIN DAMAGE to become damaged.",
+      "factionPerc1": "ZEAL - You always vote first during the agenda phase. When you cast at least 1 vote, cast 1 additional vote for each player in the game including you.",
+      "factionPerc2": "RAID FORMATION - When 1 or more of your units uses ANTI-FIGHTER BARRAGE, for each hit produced in excess of your opponent's Fighters, choose 1 of your opponent's ships that has SUSTAIN DAMAGE to become damaged.",
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/7/7a/ArgentFlightArt.jpg",
       "fleet": {
-        "mothership": 9,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          7
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          8
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
     {
       "id": 19,
       "factionName": "The Empyrean",
-      "factionPerc1":"VOIDBORN - Nebulae do not affect your ships' movement.",
-      "factionPerc2":"AETHERPASSAGE - After a player activates a system, you may allow that player to move their ships through systems that contain your ships.",
+      "factionPerc1": "VOIDBORN - Nebulae do not affect your ships' movement.",
+      "factionPerc2": "AETHERPASSAGE - After a player activates a system, you may allow that player to move their ships through systems that contain your ships.",
       "factionPerc3": "DARK WHISPERS - During setup, take the additional Empyrean faction promissory note; you have 2 faction promissory notes.",
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/4/47/EMPYREAN.png",
       "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          5
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
     {
       "id": 20,
       "factionName": "The Mahact Gene-Sorcerers",
-      "factionPerc1":"EDICT - When you win a combat, place 1 command token from your opponent's reinforcements in your fleet pool if it does not already contain 1 of that player's tokens; other player's tokens in your fleet pool increase your fleet limit but cannot be redistributed.",
-      "factionPerc2":"IMPERIA - While another player's command token is in your fleet pool, you can use the ability of that player's commander, if it is unlocked.",
+      "factionPerc1": "EDICT - When you win a combat, place 1 command token from your opponent's reinforcements in your fleet pool if it does not already contain 1 of that player's tokens; other player's tokens in your fleet pool increase your fleet limit but cannot be redistributed.",
+      "factionPerc2": "IMPERIA - While another player's command token is in your fleet pool, you can use the ability of that player's commander, if it is unlocked.",
       "factionPerc3": "HUBRIS - During setup, purge your \"Alliance\" promissory note. Other players cannot give you their 'Alliance\" promissory note.",
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/9/9c/MAHACT.png",
       "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          5
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
     {
       "id": 21,
       "factionName": "The Naaz-Rokha Alliance",
-      "factionPerc1":"DISTANT SUNS - When you explore a planet that contains 1 of your mechs, you may draw 1 additional card; choose 1 to resolve and discard the rest.",
-      "factionPerc2":"FABRICATION - ACTION: Either purge 2 of your relic fragments of the same type to gain 1 relic; or purge 1 of your relic fragments to gain 1 command token.",
+      "factionPerc1": "DISTANT SUNS - When you explore a planet that contains 1 of your mechs, you may draw 1 additional card; choose 1 to resolve and discard the rest.",
+      "factionPerc2": "FABRICATION - ACTION: Either purge 2 of your relic fragments of the same type to gain 1 relic; or purge 1 of your relic fragments to gain 1 command token.",
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/5/5b/NAAZROKHA.png",
       "fleet": {
-        "mothership": 9,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          9
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
     {
       "id": 22,
       "factionName": "The Nomad",
-      "factionPerc1":"THE COMPANY - During setup, take the 2 additional Nomad faction agents and place them next to your faction sheet; you have 3 agents",
-      "factionPerc2":"FUTURE SIGHT - During the Agenda phase, after an outcome that you voted for or predicted is resolved, gain 1 trade good",
+      "factionPerc1": "THE COMPANY - During setup, take the 2 additional Nomad faction agents and place them next to your faction sheet; you have 3 agents",
+      "factionPerc2": "FUTURE SIGHT - During the Agenda phase, after an outcome that you voted for or predicted is resolved, gain 1 trade good",
       "factionPerc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/0/0a/NOMAD.png",
       "fleet": {
-        "mothership": 7,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          7
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
     {
       "id": 23,
-      "factionName": "The Nomad",
-      "factionPerc1":"THE COMPANY - During setup, take the 2 additional Nomad faction agents and place them next to your faction sheet; you have 3 agents",
-      "factionPerc2":"FUTURE SIGHT - During the Agenda phase, after an outcome that you voted for or predicted is resolved, gain 1 trade good",
-      "factionPerc3": null,
+      "factionName": "The Titans of Ul",
+      "factionPerc1": "TERRAGENESIS: After you explore a planet that does not have a sleeper token, you may place or move 1 sleeper token onto that planet.",
+      "factionPerc2": "AWAKEN: After you activate a system that contains 1 or more of your sleeper tokens, you may replace each of those tokens with 1 PDS from your reinforcements.",
+      "factionPerc3": "COALESCENCE: If your flagship or your AWAKEN faction ability places your units into the same space area or onto the same planet as another player's units, your units must participate in combat during \"Space Combat\" or \"Ground Combat\" steps.",
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/9/9e/TITANS.png",
       "fleet": {
-        "mothership": 7,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          7
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     },
     {
       "id": 24,
       "factionName": "The Vuil'Raith Cabal",
-      "factionPerc1":"DEVOUR - Capture your opponent's non-structure units that are destroyed during combat.",
-      "factionPerc2":"AMALGAMATION - When you produce a unit, you may return 1 captured unit of that type to produce that unit without spending resources.",
+      "factionPerc1": "DEVOUR - Capture your opponent's non-structure units that are destroyed during combat.",
+      "factionPerc2": "AMALGAMATION - When you produce a unit, you may return 1 captured unit of that type to produce that unit without spending resources.",
       "factionPerc3": "RIFTMELD - When you research a unit upgrade technology, you may return 1 captured unit of that type to ignore all of the technology's prerequisites. ",
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/d/da/CabalFULL.jpg",
       "fleet": {
-        "mothership": 5,
-        "warSun": 3,
-        "dreadnought": 5,
-        "carrier": 9,
-        "crusier": 7,
-        "destroyer": 9,
-        "fighter": 9,
-        "infantry": 8,
-        "PDS": 6,
+        "mothership": [
+          2,
+          5
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
     }
-
   ]
 }

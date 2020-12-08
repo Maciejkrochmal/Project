@@ -31,17 +31,14 @@ export const FightLogic = ({playerOne,pOne, playerTwo,pTwo}) =>{
 
         for(let i = 0; i<fleetNames.length; i++){
              for(let j = 0; j<fleetOne[fleetNames[i]]; j++){
-                 switch (fleetNames[i]){
-                     case "warSun": {
-                         console.log(fleetData)
-                     }
-                         break
+                 for(let s = 0; s<fleetData[fleetNames[i]][0]; s++){
+                     console.log(fleetData[fleetNames[i]][0])
+                     let ship = Math.floor(Math.random() * (10 - 1 + 1)) + 1
+                     ship >= fleetData[fleetNames[i]][1] ?
+                         (setPlayOneCount(prev => ({...prev, success: prev.success+1})), console.log(`${fleetNames[i]} trafil ${ship}`))
+                         :
+                         (setPlayOneCount(prev => ({...prev, miss: prev.miss+1})), console.log(`${fleetNames[i]} pudło ${ship}`))
                  }
-                let ship = Math.floor(Math.random() * (10 - 1 + 1)) + 1
-                ship >= fleetData[fleetNames[i]] ?
-                    (setPlayOneCount(prev => ({...prev, success: prev.success+1})), console.log(`${fleetNames[i]} trafil ${ship}`))
-                    :
-                    (setPlayOneCount(prev => ({...prev, miss: prev.miss+1})), console.log(`${fleetNames[i]} pudło ${ship}`))
             }
         }
        }
