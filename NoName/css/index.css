@@ -32,6 +32,8 @@ body {
   font-size: 15px;
 }
 .player-img{
+  height: 260px;
+  width: 200px;
   margin: 15px 0 10px 0;
   border-radius: 6px;
   animation: borderAnimation 1.5s infinite alternate;

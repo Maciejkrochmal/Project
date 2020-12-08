@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from "react";
 import {ShipList} from "./shipList";
-const API = "http://localhost:3000"
 
 export const FightLogic = ({playerOne,pOne, playerTwo,pTwo}) =>{
     const [fleetOne, setFleetOne] = useState(null)
@@ -22,17 +21,24 @@ export const FightLogic = ({playerOne,pOne, playerTwo,pTwo}) =>{
 
     }
 
-
     const playerSuccess = () =>{
        if(playerOne === null || playerTwo === null){
            console.log('Brak')
        } else {
+
         const fleetData = pOne?.fleet || pTwo?.fleet
         const fleetNames = Object.getOwnPropertyNames(fleetData)
+
         for(let i = 0; i<fleetNames.length; i++){
-             for(let j = 0; j<fleetOne.[fleetNames[i]]; j++){
+             for(let j = 0; j<fleetOne[fleetNames[i]]; j++){
+                 switch (fleetNames[i]){
+                     case "warSun": {
+                         console.log(fleetData)
+                     }
+                         break
+                 }
                 let ship = Math.floor(Math.random() * (10 - 1 + 1)) + 1
-                ship >= fleetData.[fleetNames[i]] ?
+                ship >= fleetData[fleetNames[i]] ?
                     (setPlayOneCount(prev => ({...prev, success: prev.success+1})), console.log(`${fleetNames[i]} trafil ${ship}`))
                     :
                     (setPlayOneCount(prev => ({...prev, miss: prev.miss+1})), console.log(`${fleetNames[i]} pudło ${ship}`))

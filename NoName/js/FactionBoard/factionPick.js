@@ -12,10 +12,10 @@ export const FactionPick = ({newPlayer}) => {
         const tmp =[]
         for (let i = 0; i<3; i++){
             if(tmp.length === 0){
-                tmp.push(Math.floor(Math.random() * (11 - 1 + 1)) + 1)
+                tmp.push(Math.floor(Math.random() * (24 - 1 + 1)) + 1)
             } else {
-                let a = Math.floor(Math.random() * (11 - 1 + 1)) + 1
-                tmp.includes(a)? tmp.push(Math.floor(Math.random() * (11 - 1 + 1)) + 1) : tmp.push(a)
+                let a = Math.floor(Math.random() * (24 - 1 + 1)) + 1
+                tmp.includes(a)? tmp.push(Math.floor(Math.random() * (24 - 1 + 1)) + 1) : tmp.push(a)
             }
         }
         setRandomId(tmp)

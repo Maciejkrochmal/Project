@@ -4,9 +4,11 @@ import {FightPlayerMissing} from "./fightPlayerMissing";
 import {FightForm} from "./fightForm";
 import {FightLogic} from "./fightLogic";
 import paseImg from "../../database/assets/351029710_orig.jpg";
+const API = "http://localhost:3000"
+
 
 export const FightPreparation = () => {
-    const API = "http://localhost:3000"
+
     const [players, setPlayers] = useState([])
     const [pvp, setPvp] = useState( {
         playerOne:null,
