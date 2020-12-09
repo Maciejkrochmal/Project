@@ -1,19 +1,19 @@
 import React, {useState, useEffect} from "react";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 
-export const Nav = ({navJump}) =>{
-
-    const handleHome = (e) =>{
-        console.log(e.target.value)
-        navJump(e.target.value)
-    }
-
+export const Nav = () =>{
     return(
         <>
             <header className='nav-bar'>
                 <ul className='nav-bar'>
-                    <li className="nav-bar-btn" onClick={handleHome} value={0}>Home</li>
-                    <li className="nav-bar-btn" onClick={handleHome} value={2}>Fight</li>
-                    <li className="nav-bar-btn" onClick={handleHome} value={1}>Pick User</li>
+                    <Link className="nav-bar-btn" to="/">Home</Link>
+                    <Link className="nav-bar-btn" to="/Fight">Fight</Link>
+                    <Link className="nav-bar-btn" to="/FactionPick">Pick User</Link>
                 </ul>
             </header>
         </>

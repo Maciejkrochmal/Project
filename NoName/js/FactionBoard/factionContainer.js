@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
+const API = "http://localhost:3000"
 
 export const Faction = ({id, pick}) =>{
-    const API = "http://localhost:3000"
     const [faction, setFaction] = useState([])
 
     useEffect(()=>{
@@ -10,7 +10,8 @@ export const Faction = ({id, pick}) =>{
             .then(data => setFaction(data))
     },[])
 
-    const handleClick = () =>{
+    const handleClick = (e) =>{
+        e.target.className = 'hidden'
         pick(faction, id)
 
     }

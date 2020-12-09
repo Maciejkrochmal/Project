@@ -1,8 +1,9 @@
-import React, {useState, useEffect} from "react";
+import React, {useState, useEffect, useContext} from "react";
 import {Player} from "./player";
 import paseImg from "../../database/assets/351029710_orig.jpg";
+import {Link} from "react-router-dom";
 
-export const PlayersBoard = ({newPlayer}) =>{
+export const PlayersBoard = () =>{
     const [players, setPlayers] = useState([])
     const API = "http://localhost:3000"
 
@@ -11,23 +12,24 @@ export const PlayersBoard = ({newPlayer}) =>{
             .then(resp => resp.json())
             .then(data => setPlayers(data))
     },[])
-    const handleAdd = (e) =>{
 
-        newPlayer(1)
+    const handleEdit = (e) =>{
+        console.log('lll')
+        console.log(e)
     }
-    console.log(players.length)
+
     return(
         <section className="main-container">
             <img className={"edgebackground"} src={paseImg}/>
-            {players.map(el => <Player key={el.id} img={el.img} name={el.name} faction={el.faction} perc={el.perc1} addButton={handleAdd}/>)}
+            {players.map(el => <Player key={el.id} img={el.img} name={el.name} id={el.id} faction={el.faction} perc={el.perc1} editButton={handleEdit}/>)}
             {players.length < 6 ? <div className="player-container">
-                    <a href="#" className="animated-button1" onClick={handleAdd}>
+                    <Link to="/FactionPick" href="#" className="animated-button1" >
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
                         New Player
-                    </a>
+                    </Link>
             </div>
             :null}
         </section>

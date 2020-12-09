@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import {Faction} from "./factionContainer";
 import paseImg from "../../database/assets/351029710_orig.jpg";
 
-export const FactionPick = ({newPlayer}) => {
+export const FactionPick = () => {
     const API = "http://localhost:3000"
     const [randomId, setRandomId] = useState([])
     const [player, setPlayer] = useState(null)
@@ -21,6 +21,7 @@ export const FactionPick = ({newPlayer}) => {
         setRandomId(tmp)
     }
     const handleAddPlayer = (el, bk) =>{
+        playerName ?
         setPlayer({
             name: playerName,
             faction: el.factionName,
@@ -51,6 +52,7 @@ export const FactionPick = ({newPlayer}) => {
                 PDS: 0
             }
         })
+            : console.log('no name')
     }
     useEffect(()=>{
         player === null ? console.log('czekam') :

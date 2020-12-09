@@ -7,6 +7,7 @@
       "perc2": "NOMADIC: You can score objectives even if you do not control the planets in your home system.",
       "perc3": null,
       "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/5/59/SAAR.png",
+      "imgFaction": "https://static.wikia.nocookie.net/twilight-imperium-4/images/4/46/Saar1.jpg",
       "fleet": {
         "mothership": [
           2,
@@ -115,6 +116,64 @@
         "PDS": 0
       },
       "id": 2
+    },
+    {
+      "name": "Mack",
+      "faction": "The Ghosts of Creuss",
+      "perc1": "QUANTUM ENTANGLEMENT : You treat all systems that contain either an alpha or beta wormhole as adjacent to each other. Game effects cannot prevent you from using this ability.",
+      "perc2": "SLIPSTREAM: During your tactical actions, apply +1 to the move value of each of your ships that starts its movement in your home system  or in a system that contains either an alpha or beta wormhole",
+      "perc3": "CREUSS GATE: When you create the game board, place the Creuss Gate (tile 17) where your home system would normally be placed. The Creuss Gate system is not a home system. Then, place your home system (tile 51) in your play area.\n",
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/4/4b/GHOSTS.png",
+      "fleet": {
+        "mothership": [
+          1,
+          5
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ]
+      },
+      "ships": {
+        "mothership": 0,
+        "warSun": 0,
+        "dreadnought": 0,
+        "carrier": 0,
+        "crusier": 0,
+        "destroyer": 0,
+        "fighter": 0,
+        "infantry": 0,
+        "PDS": 0
+      },
+      "id": 3
     }
   ],
   "factions": [

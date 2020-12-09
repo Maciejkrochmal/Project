@@ -1,25 +1,34 @@
-import React, {useState, useEffect} from "react";
+import React, {useState, useEffect, createContext} from "react";
 import ReactDOM from "react-dom";
 import {PlayersBoard} from "./PlayersBoard";
 import {FactionPick} from "./FactionBoard/factionPick";
 import {FightPreparation} from "./Fight/fightPreparation";
 import {Nav} from "./nav";
+import {PlayerUpdate} from "./PlayerUpdate/updatePlayer";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 
+export const TestContext = React.createContext()
 
 const App = () => {
-    const [index, setIndex] = useState(0)
 
-    const handleAdd = (e) => {
-        setIndex(e)
-    }
+    const [testy, setTesty] = useState(null)
+
 
 return (
-    <>
-    <Nav navJump={handleAdd}/>
-        {index === 2 ? <FightPreparation/> :null}
-        {index === 0? <PlayersBoard newPlayer={handleAdd}/>:null}
-        {index === 1 ?<FactionPick newPlayer={handleAdd}/>:null}
-    </>
+    <Router>
+        <Nav/>
+        <TestContext.Provider value={{testy, setTesty}}>
+        <Route path="/" exact component={PlayersBoard}/>
+        <Route path="/EditPlayer" component={PlayerUpdate}/>
+        </TestContext.Provider>
+        <Route path="/Fight" component={FightPreparation}/>
+        <Route path="/FactionPick" component={FactionPick}/>
+    </Router>
 )
 }
 
