@@ -13,15 +13,11 @@ export const PlayersBoard = () =>{
             .then(data => setPlayers(data))
     },[])
 
-    const handleEdit = (e) =>{
-        console.log('lll')
-        console.log(e)
-    }
 
     return(
         <section className="main-container">
             <img className={"edgebackground"} src={paseImg}/>
-            {players.map(el => <Player key={el.id} img={el.img} name={el.name} id={el.id} faction={el.faction} perc={el.perc1} editButton={handleEdit}/>)}
+            {players.map(el => <Player key={el.id} img={el.img} name={el.name} id={el.id} faction={el.faction} perc={el.perc1} />)}
             {players.length < 6 ? <div className="player-container">
                     <Link to="/FactionPick" href="#" className="animated-button1" >
                         <span></span>

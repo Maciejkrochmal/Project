@@ -19,7 +19,7 @@
         ],
         "dreadnought": [
           1,
-          5
+          4
         ],
         "carrier": [
           1,
@@ -27,15 +27,15 @@
         ],
         "crusier": [
           1,
-          7
+          6
         ],
         "destroyer": [
           1,
-          9
+          7
         ],
         "fighter": [
           1,
-          9
+          7
         ],
         "infantry": [
           1,
@@ -174,6 +174,64 @@
         "PDS": 0
       },
       "id": 3
+    },
+    {
+      "name": "Twew",
+      "faction": "The Mahact Gene-Sorcerers",
+      "perc1": "EDICT - When you win a combat, place 1 command token from your opponent's reinforcements in your fleet pool if it does not already contain 1 of that player's tokens; other player's tokens in your fleet pool increase your fleet limit but cannot be redistributed.",
+      "perc2": "IMPERIA - While another player's command token is in your fleet pool, you can use the ability of that player's commander, if it is unlocked.",
+      "perc3": "HUBRIS - During setup, purge your \"Alliance\" promissory note. Other players cannot give you their 'Alliance\" promissory note.",
+      "img": "https://static.wikia.nocookie.net/twilight-imperium-4/images/9/9c/MAHACT.png",
+      "fleet": {
+        "mothership": [
+          2,
+          5
+        ],
+        "warSun": [
+          3,
+          3
+        ],
+        "dreadnought": [
+          1,
+          5
+        ],
+        "carrier": [
+          1,
+          9
+        ],
+        "crusier": [
+          1,
+          7
+        ],
+        "destroyer": [
+          1,
+          9
+        ],
+        "fighter": [
+          1,
+          9
+        ],
+        "infantry": [
+          1,
+          8
+        ],
+        "PDS": [
+          1,
+          6
+        ]
+      },
+      "ships": {
+        "mothership": 0,
+        "warSun": 0,
+        "dreadnought": 0,
+        "carrier": 0,
+        "crusier": 0,
+        "destroyer": 0,
+        "fighter": 0,
+        "infantry": 0,
+        "PDS": 0
+      },
+      "id": 4
     }
   ],
   "factions": [
@@ -1304,6 +1362,140 @@
         ],
         "spaceDock": "Space Docks are units placed on planets that possess the Production ability, allowing them to produce units. Each faction starts with 1 space dock in their home system."
       }
+    }
+  ],
+  "updates": [
+    {
+      "id": 1,
+      "name": "Prototype War Sun II",
+      "ship": "warSun",
+      "data": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Super-Dreadnought II",
+      "ship": "dreadnought",
+      "data": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Destroyer II",
+      "ship": "destroyer",
+      "data": [
+        1,
+        8
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Strike Wing Alpha II",
+      "ship": "destroyer",
+      "data": [
+        1,
+        7
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Fighter II",
+      "ship": "fighter",
+      "data": [
+        1,
+        8
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Hybrid Crystal Fighter II",
+      "ship": "fighter",
+      "data": [
+        1,
+        7
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cruiser II",
+      "ship": "crusier",
+      "data": [
+        1,
+        6
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Infantry II",
+      "ship": "infantry",
+      "data": [
+        1,
+        7
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Spec Ops II",
+      "ship": "infantry",
+      "data": [
+        1,
+        6
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Letani Warrior II",
+      "ship": "infantry",
+      "data": [
+        1,
+        7
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Crimson Legionnaire II",
+      "ship": "infantry",
+      "data": [
+        1,
+        7
+      ]
+    },
+    {
+      "id": 12,
+      "name": "PDS II",
+      "ship": "PDS",
+      "data": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Hel-Titan II",
+      "ship": "PDS",
+      "data": [
+        1,
+        5
+      ]
+    }
+
+  ],
+  "action": [
+    {
+      "id": 1,
+      "name": "Fighter Prototype",
+      "desc": "Apply +2 to the result of each of your fighters' combat rolls during this combat round.",
+      "value": 2
+    },
+    {
+      "id": 2,
+      "name": "Morale Boost",
+      "desc": "At the start of a combat round:",
+      "value": 1
     }
   ]
 }
